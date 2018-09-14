@@ -3,7 +3,7 @@ import numpy as np
 import argparse
 import os
 
-def cal(img, new_width=80):
+def img_resizer(img, new_width=80):
     """
     Resize the image based on the new width
     """
@@ -70,9 +70,9 @@ if __name__ == '__main__':
         img = Image.open(args.input).convert('L')
         
         if args.width:
-            resized_img = cal(img, new_width=args.width)
+            resized_img = img_resizer(img, new_width=args.width)
         else:
-            resized_img = cal(img, new_width=80)
+            resized_img = img_resizer(img, new_width=80)
         
         if args.output:
             img_to_ascii(resized_img, ASCII, args.output)
