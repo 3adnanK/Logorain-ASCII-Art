@@ -16,3 +16,8 @@ Logorain-ASCII-Art is a simple script that let you convert any image to ASCII Ar
 | -o            | --output      |Define the output path                       |
 
 The result will be an HTML file.
+
+
+![Illustration Image](/Screenshots/illustration.png?raw=true "Original Image")
+
+![ASCII Art](/Screenshots/screenshot.JPG?raw=true "ASCII Art Image")
