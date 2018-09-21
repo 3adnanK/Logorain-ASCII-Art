@@ -10,7 +10,7 @@ def img_resizer(img, new_width=80):
     
     w, h = img.size
     
-    assert w > new_width, "New width can't be grater than old width"
+    assert w > new_width, "New width can't be greater than old width"
     
     ratio = h / w
     
@@ -40,7 +40,7 @@ def img_to_ascii(img, ASCII, output=None):
         if os.path.isdir(output):
             output_path = os.path.join(output, 'Logorain-ASCII-Art.html')
         else:
-            print(f"The output path: ''{output}'' doesn't exist the file will be saved on the current folder")
+            print(f"The output path: ''{output}'' doesn't exist: the file will be saved on your current folder")
             current_path = os.path.abspath(os.curdir)
             output_path = os.path.join(current_path, "Logorain-ASCII-Art.html")
             
