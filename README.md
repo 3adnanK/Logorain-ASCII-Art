@@ -6,7 +6,7 @@ Logorain-ASCII-Art is a simple script that let you convert any image to ASCII Ar
 
 `python3 Logorain-ASCII-Art.py -i "your-image-path" `
 
-`python3 Logorain-ASCII-Art.py -i "your-image-path -w 120 -o "C:\Users\admin\Desktop" `
+`python3 Logorain-ASCII-Art.py -i "your-image-path" -w 120 -o "C:\Users\admin\Desktop" `
 
 ## Parameters
 | Short option  | Long option   | Description                                 |
